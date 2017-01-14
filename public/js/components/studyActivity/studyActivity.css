@@ -1,0 +1,153 @@
+/* 教学活动 */
+
+.conWrap {
+	width: 100%;
+}
+
+.container {
+	width: 960px;
+	min-height: 500px;
+	margin: 0 auto;
+	background-color: #fcf9f9;
+	overflow: hidden;
+}
+
+.activity {
+	width: 780px;
+	margin: 0 auto;
+}
+
+.activityTit {
+	width: 167px;
+	line-height: 40px;
+	margin: 33px 0 36px 0;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	background: url('./img/lesson_tit_bg.png') no-repeat;
+	color: #fbfdfd;
+}
+
+.activityCon {
+	position: relative;
+	width: 100%;
+}
+
+/* 活动课程项 */
+.lessonItem {
+	width: 100%;
+	/*height: 105px;*/
+	margin-bottom: 53px;
+	overflow: hidden;
+}
+
+.lessItemCon {
+	float: right;
+	width: 612px;
+	height: 105px;
+	overflow: hidden;
+}
+
+.lessItemTit {
+	float: left;
+	line-height: 33px;
+	padding: 0;
+	margin: 0;
+	font-size: 22px;
+	font-weight: 500;
+	color: #0076c9;
+}
+
+.lessItemImg {
+	width: 150px;
+	height: 105px;
+}
+
+.lessItemPer, .lessItemDate {
+	float: right;
+	line-height: 33px;
+	margin-left: 24px;
+	font-size: 16px;
+	color: #393a3a;
+}
+
+.lessItemPar {
+	float: left;
+	width: 100%;
+	min-height: 50px;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	overflow: hidden;
+	color: #908e8e;
+}
+
+.lessItemMore {
+	float: right;
+	font-size: 18px;
+	text-decoration: none;
+	color: #ee4242;
+}
+
+.lessonPage {
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.pageUl {
+	float: left;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.preBtn, .nexBtn {
+	display: inline-block;
+	float: left;
+	width: 88px;
+	line-height: 35px;
+	border: 1px solid #b2d6ef;
+	font-size: 16px;
+	text-align: center;
+	color: #0076c9;
+	cursor: pointer;
+}
+
+.preBtn:hover, .nexBtn:hover {
+	border: 1px solid #00aac9;
+}
+
+.preBtn {
+	margin-right: 8px;
+}
+
+.pageUlItem {
+	float: left;
+	width: 35px;
+	line-height: 35px;
+	margin-right: 8px;
+	border: 1px solid #b2d6ef;
+	font-size: 16px;
+	color: #0076c9;
+	text-align: center;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.pageUlItem:hover {
+	border: 1px solid #00aac9;
+}
+
+.pageUlItemCur {
+	border-color: #fcf9f9;
+}
+
+.itemNum {
+	right: 0;
+	line-height: 35px;
+	margin-left: 15px;
+	color: #0076c9;
+}
