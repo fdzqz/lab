@@ -1,4 +1,4 @@
 node_modules
 /public/js/build/*
 .vscode
-npm-debug.log
+*.log
