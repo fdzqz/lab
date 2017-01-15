@@ -40,3 +40,11 @@
 
 1 React的事件绑定中```this.eventName```和```this.eventName.bind(this)```的区别。
 2 React使用refs获取元素。
+3 JSON.stringify方法使用错误。
+4 路由程序没有接受到Post过来的数据-是由于没传到应用程序中，原因使用fetch的同源策略没有设置好，这个后面要注意！！！[（同源策略和跨域处理）](https://segmentfault.com/q/1010000006136735?_ea=1026530)
+5 后台程序获取前端数据的方法
+- GET方法：req.query
+- POST方法：req.body
+- 路由参数（如user/:id)：req.params
+6 Express重定向：想要登录成功后重定向到后台页（使用res.redirect()），结果不能实现。
+：使用redirect方法后返回304，但是如果状态码除了是301和302外浏览器都不会自动重定向(要先去了解一下重定向的原理)，后面通过redirect把状态码设置301/302并没有成功。返回304时是把文档也下载下来了。

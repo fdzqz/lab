@@ -6,6 +6,8 @@ module.exports = function(app){
 
 	app.use('/adminLogin', require('./adminLogin'));
 
+	app.use('/admin', require('./admin'));
+
 	app.use('/studyActivity', require('./studyActivity'));
 
 	// app.get('/admin', function(req, res){

@@ -21,14 +21,16 @@ class App extends React.Component{
             // 在这里记录下Fetch是怎么使用的
             fetch("adminLogin/login", {
                 method: "POST",
+                mode: "cors",
                 headers: {
-                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
                 },
                 // mode: "cors",
-                body: {
-                    userName: userName,
-                    password: password
-                }
+                body: JSON.stringify({
+                    userName: userName.value,
+                    password: password.value
+                })
             }).then(function(res) {
                 if (res.status === 200) {
                     return res.json()
