@@ -1,0 +1,9 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.admin_login_bg {
+    font-family: 'Microsoft Yahei';
+	background-color: #eff0f0;
+}

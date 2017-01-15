@@ -37,7 +37,7 @@ export default class Footer extends React.Component{
 				        <div className={styles.extraLink}>
 				            <a className={styles.exLinkItem} href='#'>联系我们</a>
 				            <span>|</span>
-				            <a className={styles.exLinkItem} href='#'>后台登录</a>
+				            <a className={styles.exLinkItem} href='/adminLogin'>后台登录</a>
 				        </div>
 				        <p className={styles.copyright}>CopyRight © 2016 重庆邮电大学经济管理学院</p>
 				    </div>

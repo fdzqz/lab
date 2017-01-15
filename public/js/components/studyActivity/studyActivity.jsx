@@ -24,7 +24,7 @@ export default class StudyActivity extends React.Component{
 		let that = this
 		$.ajax({
 			type: 'GET',
-			url: '/api/getActivityNum',
+			url: '/studyActivity/getActivityNum',
 			success: (data) => {
 				if(data.status === 1) {
 					// 动态条数
@@ -36,7 +36,7 @@ export default class StudyActivity extends React.Component{
 		})
 		$.ajax({
 			type: 'GET',
-			url: '/api/getActivityByPage',
+			url: '/studyActivity/getActivityByPage',
 			data: {
 				current: 0
 			},

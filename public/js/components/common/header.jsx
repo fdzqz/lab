@@ -30,7 +30,7 @@ export default class Header extends React.Component{
 		return (
 			<div className={styles.heaWrap}>
 				<div className={styles.header}>
-				    <a className={styles.logoLink} href='index.html'><img className={styles.logoImg} src='img/logo.png' /></a>
+				    <a className={styles.logoLink} href='/'><img className={styles.logoImg} src='img/logo.png' /></a>
 				    <div className={styles.langEle}>
 				        <a className={styles.langItem} href='#'>中文</a>| 
 				        <a className={styles.langItem} href='#'>English</a>
