@@ -32,6 +32,11 @@
 - Node核心机制
 - Node面试题整理
 - Express与MongoDB入门及使用
-- **Express路由设计~**
+- [**Express路由设计~**](https://github.com/fdzqz/lab/blob/master/book/Express%E8%B7%AF%E7%94%B1%E8%AE%BE%E8%AE%A1.md)
 - 如何在CentOS搭建Node服务器
 - Linux入门（系统安装、目录结构、基本命令和软件安装）
+
+## 项目记录
+
+1 React的事件绑定中```this.eventName```和```this.eventName.bind(this)```的区别。
+2 React使用refs获取元素。
